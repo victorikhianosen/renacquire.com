@@ -1,32 +1,55 @@
 name: Deploy
 
+# Trigger the workflow on push and pull request events on the production branch
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
   pull_request:
-    branches: [ main ]
+    branches:
+      - main
 
+# Authenticate to the server via ssh and run deployment commands directly
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
+      - uses: actions/checkout@v2
       - name: Deploy to server
         uses: appleboy/ssh-action@master
         with:
-          host:       ${{ secrets.HOST }}
-          username:   ${{ secrets.USERNAME }}
-          port:       ${{ secrets.PORT }}
-          key:        ${{ secrets.SSH_PRIVATE_KEY }}
-          # show each command and fail fast
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          port: ${{ secrets.SSH_PORT }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            set -e
-            echo "🔐 Ensuring deploy script is executable"
-            cd /var/www/html/renacquire
-            chmod +x ./.scripts/deploy.sh
+            echo "Deployment started ..."
 
-            echo "🚀 Running deploy script"
-            ./.scripts/deploy.sh
+            # Enter maintenance mode or return true if already in maintenance mode
+            cd /var/www/html/renacquire
+            (php artisan down) || true
+
+            # Pull the latest version of the app
+            git pull origin main
+
+            # Install composer dependencies (uncomment if needed)
+            # composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader
+
+            # Clear the old cache
+            php artisan clear-compiled
+            php artisan config:clear
+            php artisan cache:clear
+
+            # Recreate cache
+            php artisan optimize
+
+            # Compile npm assets (uncomment if needed)
+            # npm run prod
+
+            # Run database migrations
+            php artisan migrate --force
+
+            # Exit maintenance mode
+            php artisan up
+
+            echo "Deployment finished!"
