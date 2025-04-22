@@ -1,5 +1,5 @@
 
-<section id="navbar" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-primary">
+<section id="navbar" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-white">
     <div class="container mx-auto px-6">
         <div class="flex justify-between items-center py-4">
 
