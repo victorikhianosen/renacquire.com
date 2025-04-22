@@ -10,6 +10,3 @@ Route::get('/about', [PageController::class, 'about'])->name('about');
 Route::get('/team', [PageController::class, 'team'])->name('team');
 
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');
-
-
-// Route::get('/contact', [PageController::class, 'contact'])->name('contact');
