@@ -2,7 +2,7 @@
     <div class="container mx-auto px-6 py-24">
         <h2
             class="col-span-4 lg:col-span-3 text-[33px] md:text-[48px] lg:text-[62px] font-bold leading-tight text-black">
-            Track records
+            Track <span>records</span>
         </h2>
 
 
@@ -162,6 +162,7 @@
                 </div>
             </div>
         </div>
+        
 
     </div>
 </section>

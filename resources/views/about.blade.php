@@ -1,15 +1,19 @@
 @extends('layouts.app')
 @section('main')
-    <section class="bg-navy text-primary">
-        <div class="container mx-auto px-6 pt-40 pb-24 text-center">
+<section class="relative text-black bg-cover bg-center" style="background-image: url('{{ asset('asssets/img/servicebg.jpg') }}');">
+    <div class="absolute inset-0 bg-primary z-0"></div>
+
+        <div class="relative z-10 container mx-auto px-6 pt-40 pb-24 text-center text-black">
             <h1 class="text-5xl sm:text-6xl font-bold mb-4">About</h1>
             <div class="text-base sm:text-lg font-semibold flex justify-center gap-2">
-                <a href="{{ route('home') }}" class="hover:underline text-primary/80">Home</a>
+                <a href="{{ route('home') }}" class="hover:underline text-black/90">Home</a>
                 <span>|</span>
                 <span>About</span>
             </div>
         </div>
+
     </section>
+
 
     <section class="bg-charcoal text-white py-24">
         <div class="container mx-auto px-6">
@@ -30,7 +34,7 @@
             <!-- About Section -->
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div>
-                    <h2 class="text-3xl font-semibold text-white mb-4">Who We Are</h2>
+                    <h2 class="text-lg font-semibold text-white mb-4">Who We Are</h2>
                     <h2 class="text-6xl font-semibold text-white mb-4">Driving financial growth with strategic solutions.
                     </h2>
 
@@ -41,7 +45,7 @@
                         solutions that address the unique needs of our clients. .</p>
 
                     <a href="/contact"
-                        class="inline-block px-6 py-3 bg-black text-white font-medium rounded-xl shadow-md hover:opacity-90 transition transform hover:scale-105">
+                        class="inline-block px-6 py-3 bg-primary text-white font-medium rounded-xl shadow-md hover:opacity-90 transition transform hover:scale-105">
                         Talk to Us
                     </a>
                 </div>
@@ -95,7 +99,7 @@
 
                 <!-- Message from the Managing Director -->
                 <div>
-                    <h2 class="text-5xl font-semibold text-white mb-4">Message from the Managing Director</h2>
+                    <h2 class="text-5xl font-semibold  mb-4 text-[#d9bf83]">Message from the <span class=text-[#d9bf83]>Managing Director</span> </h2>
                     <p class="text-white leading-relaxed mb-6">
                         Dear Stakeholders,
                     </p>

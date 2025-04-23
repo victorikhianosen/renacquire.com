@@ -25,6 +25,10 @@
     <title>RenAcquire</title>
 
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+
 
     @include('layouts.tailwind-config')
 

@@ -4,7 +4,7 @@
     <div class="container m-auto p-6 py-24">
         <div class="grid grid-cols-4 gap-16">
             <div class="col-span-4 md:col-span-2 lg:col-span-1">
-                <img class="w-[50%] md:[40%] lg:w-[50%]" src="{{ asset('asssets/img/white-logo.png') }}"
+                <img class="w-[50%] md:[40%] lg:w-[90%]" src="{{ asset('asssets/img/white-logo.png') }}"
                     alt="">
                 <p class="text-textColor text-sm md:text-[16px] font-normal leading-[26px] text-justify mt-4">
                     19A, Sinari Daranijo Street, Victoria Island, Lagos. Nigeria
@@ -20,14 +20,14 @@
         </div>
 
 
-        <div class="relative grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-x-8 md:gap-x-8 gap-y-24 pt-16">
+        <div class="relative grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-x-1 md:gap-x-8 gap-y-24 pt-16">
 
             <div class="w-full">
                 <h5
                     class="text-sm md:text-[26px] font-normal leading-[23px] text-justifytext-white pt-2 tracking-wider text-white">
                     Newsletter</h5>
                 <p
-                    class="text-textColor text-sm md:text-[16px] font-normal leading-[23px] text-justifytext-white pt-4 tracking-wider">
+                    class="text-textColor text-sm md:text-[16px] font-normal leading-[23px] text-justifytext-white pt-4 tracking-wider w-[120px] md:w-full text-justify">
                     Subscribe to our newsletter to get the latest news and updates about our services.
                 </p>
 
@@ -54,19 +54,19 @@
                     class="text-sm md:text-[18px] font-semibold leading-[23px] text-justifytext-white pt-2 tracking-wider text-white">
                     Quick Links</h5>
                 <div class="flex flex-col justify-start items-start pt-2">
-                    <a href=""
+                    <a href="{{ route('home') }}"
                         class="text-textColor text-sm md:text-[14px] font-normal leading-[23px] text-justifytext-white pt-2 tracking-wider  transition-all duration-300 hover:text-white hover:translate-x-2">
                         Home</a>
 
-                    <a href=""
+                    <a href="{{ route('services') }}"
                         class="text-textColor text-sm md:text-[14px] font-normal leading-[23px] text-justifytext-white pt-2 tracking-wider  transition-all duration-300 hover:text-white hover:translate-x-2">
                         Services</a>
 
-                    <a href=""
+                    <a href="{{ route('team') }}"
                         class="text-textColor text-sm md:text-[14px] font-normal leading-[23px] text-justifytext-white pt-2 tracking-wider  transition-all duration-300 hover:text-white hover:translate-x-2">
                         Team</a>
 
-                    <a href=""
+                    <a href="{{ route('contact') }}"
                         class="text-textColor text-sm md:text-[14px] font-normal leading-[23px] text-justifytext-white pt-2 tracking-wider  transition-all duration-300 hover:text-white hover:translate-x-2">
                         Contact</a>
 
@@ -101,14 +101,14 @@
                 </div>
             </div>
 
-            <div>
+            <div class="">
                 <h5
                     class="text-sm md:text-[18px] font-semibold leading-[23px] text-justifytext-white pt-2 tracking-wider text-white">
                     Say Hello
                 </h5>
                 <div class="flex flex-col justify-start items-start pt-2">
                     <a href=""
-                        class="flex text-textColor text-sm md:text-[14px] font-normal leading-[23px] text-justifytext-white pt-2 tracking-wider  transition-all duration-300 hover:text-white hover:translate-x-2">
+                        class="flex mr-24 md:mr-0 text-textColor text-sm md:text-[12px] font-normal leading-[23px] text-justifytext-white pt-2 tracking-wider  transition-all duration-300 hover:text-white hover:translate-x-2">
                         <span>
                             <i class="fa-solid fa-envelope-open-text text-white mr-1"></i>
                         </span>
@@ -137,6 +137,9 @@
 
 
 <script src="{{ asset('asssets/js/main.js') }}"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 </body>
 
 </html>

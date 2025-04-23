@@ -2,14 +2,14 @@
     <div class="container mx-auto px-6 py-10 md:py-24">
         <div class="flex justify-center items-center gap-8">
             <h2 class="text-[33px] md:text-[48px] lg:text-[62px] font-bold leading-tight text-white">
-                Delivering impactful financial solutions
-                in Africa and beyond
+                Delivering impactful <span class="text-primary">financial solutions
+                in Africa and beyond</span>
             </h2>
             <img class="hidden lg:block" src="{{ asset('asssets/img/feature.webp') }}" alt="">
         </div>
         <div class="flex justify-start items-center gap-2 mt-10">
             <div class="w-3 h-3 bg-primary"></div>
-            <p class="text-[12px] font-normal leading-[26px] text-white">
+            <p class="text-[16px] font-normal leading-[26px] text-white">
 
                 Our Services
             </p>

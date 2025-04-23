@@ -5,7 +5,7 @@
         <div class="grid grid-cols-4 items-start lg:items-center">
             <h2
                 class="col-span-4 lg:col-span-3 text-[33px] md:text-[48px] lg:text-[62px] font-bold leading-tight text-white">
-                Fast, easy and low-cost payments for all
+                Fast, easy <span class="text-black">and low-cost payments for all</span>
             </h2>
             <div class="col-span-4 lg:col-span-1 w-full flex lg:justify-end mt-4 lg:mt-0">
                 <a href=""

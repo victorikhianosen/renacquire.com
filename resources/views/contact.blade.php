@@ -1,29 +1,29 @@
 @extends('layouts.app')
 @section('main')
-<section class="bg-navy text-white">
-    <div class="container mx-auto px-6 pt-48 pb-24 text-center">
-            <h1 class="font-[Plus Jakarta Sans] text-[55px] font-semibold leading-[65px] text-white">
-                Contact
-            </h1>
+<section class="relative text-black bg-cover bg-center" style="background-image: url('{{ asset('asssets/img/servicebg.jpg') }}');">
+    <div class="absolute inset-0 bg-primary/95 z-0"></div>
 
-            <div class="text-[16px] font-bold leading-[25px] text-black pt-4 flex justify-center items-center gap-3">
-                <a class="text-gray-200" href="{{ route('home') }}">Home |</a>
-                <p class="text-white">contact</p>
+        <div class="relative z-10 container mx-auto px-6 pt-40 pb-24 text-center text-black">
+            <h1 class="text-5xl sm:text-6xl font-bold mb-4">Contact</h1>
+            <div class="text-base sm:text-lg font-semibold flex justify-center gap-2">
+                <a href="{{ route('home') }}" class="hover:underline text-black/90">Home</a>
+                <span>|</span>
+                <span>Contact</span>
             </div>
         </div>
-    </section>
 
+    </section>
 
     <section class="bg-charcoal text-white py-24">
         <div class="container mx-auto px-6">
 
             <!-- Contact Header (Time & Date) -->
             <div class="text-center mb-16">
-                <h2 class="text-4xl sm:text-5xl font-bold text-indigo-400 mb-4">Let's Get In Touch!</h2>
-                <p class="text-gray-300 text-lg">We’re available and ready to talk with you. Reach out to us anytime!</p>
+                <h2 class="text-4xl sm:text-5xl font-bold text-white mb-4">Let's Get In Touch!</h2>
+                <p class="text-primary text-lg">We’re available and ready to talk with you. Reach out to us anytime!</p>
                 <div class="text-xl text-gray-400 mt-4">
-                    <p>Open Hours: Mon-Fri: 8 AM – 5 PM</p>
-                    <p>Sat & Sun: Closed</p>
+                    <p>Open Days: Monday - Friday</p>
+                    <p>Open Hours: 8 AM – 5 PM</p>
                 </div>
             </div>
 
@@ -31,7 +31,7 @@
 
                 <!-- Left side: Contact Form -->
                 <div class="space-y-8">
-                    <h3 class="text-3xl font-semibold text-indigo-400 mb-6">Drop Us A Message!</h3>
+                    <h3 class="text-3xl font-semibold text-white mb-6">Drop Us A Message!</h3>
                     <form action="#" method="POST" class="space-y-6">
                         <div>
                             <input type="text" name="fullName" placeholder="Your Full Name" class="w-full p-4 bg-gray-800 rounded-lg text-white placeholder-gray-400 border-none focus:ring-2 focus:ring-indigo-500" required>
@@ -53,7 +53,7 @@
                             <textarea name="message" placeholder="Your Message" rows="6" class="w-full p-4 bg-gray-800 rounded-lg text-white placeholder-gray-400 border-none focus:ring-2 focus:ring-indigo-500" required></textarea>
                         </div>
 
-                        <button type="submit" class="w-full py-3 bg-indigo-600 text-white font-semibold rounded-lg transition-transform transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                        <button type="submit" class="w-full py-5 bg-primary text-white font-semibold rounded-lg transition-transform transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-indigo-500">
                             Submit
                         </button>
                     </form>
@@ -74,9 +74,9 @@
 
             <!-- Address and Contact Information -->
             <div class="text-center mt-16">
-                <h3 class="text-3xl font-semibold text-indigo-400 mb-4">Visit Our Location</h3>
+                <h3 class="text-3xl font-semibold text-white mb-4">Visit Our Location</h3>
                 <p class="text-gray-300 text-lg mb-4">19A, Sinari Daranijo Street, Victoria Island, Lagos</p>
-                <a href="https://www.google.com/maps?q=19A,+Sinari+Daranijo+Street,+Victoria+Island,+Lagos" class="text-indigo-400 hover:text-indigo-500 transition">Check Location on Google Maps</a>
+                <a href="https://www.google.com/maps?q=19A,+Sinari+Daranijo+Street,+Victoria+Island,+Lagos" class="text-gray-400 hover:text-indigo-500 transition">Check Location on Google Maps</a>
             </div>
 
         </div>
