@@ -8,7 +8,7 @@
         <div class="relative z-10 container mx-auto px-6 pt-40 pb-24 text-center text-black">
             <h1 class="text-5xl sm:text-6xl font-bold mb-4">Services</h1>
             <div class="text-base sm:text-lg font-semibold flex justify-center gap-2">
-                <a href="{{ route('home') }}" class="hover:underline text-black/90">Home</a>
+                <a href="{{ route('home') }}" class="hover:underline text-gray-300">Home</a>
                 <span>|</span>
                 <span>Services</span>
             </div>

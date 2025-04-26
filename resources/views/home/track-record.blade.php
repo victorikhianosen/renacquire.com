@@ -1,7 +1,7 @@
 <section class="bg-white">
     <div class="container mx-auto px-6 py-24">
         <h2
-            class="col-span-4 lg:col-span-3 text-[33px] md:text-[48px] lg:text-[62px] font-bold leading-tight text-black">
+            class="col-span-4 lg:col-span-3 text-[33px] md:text-[48px] lg:text-[62px] font-bold leading-tight text-black pb-16">
             Track <span>records</span>
         </h2>
 
@@ -21,7 +21,7 @@
                             <p class="text-sm">Capital Market</p>
                             <p class="text-sm">Commercial Paper</p>
                         </div>
-                        <p class="text-lg font-semibold text-primary">NGN 30 Billion (Issued in multiple series)</p>
+                        <p class="text-lg font-semibold text-primary">NGN 3 Billion</p>
                         <p class="text-sm italic text-gray-500">Joint Issue Housing</p>
                         <div class="pt-4">
                             <img src="{{ asset('asssets/img/logo.png') }}" alt="Your Logo"
@@ -42,7 +42,7 @@
                             <p class="text-sm">Capital Market</p>
                             <p class="text-sm">Bond</p>
                         </div>
-                        <p class="text-lg font-semibold text-primary">NGN billion (Issued in multiple series)</p>
+                        <p class="text-lg font-semibold text-primary">NGN 20 Billion</p>
                         <p class="text-sm italic text-gray-500">Joint Issuing House</p>
                         <div class="pt-4">
                             <img src="{{ asset('asssets/img/logo.png') }}" alt="Your Logo"
@@ -64,7 +64,7 @@
                             <p class="text-sm">Capital Market</p>
                             <p class="text-sm">Short Term investment Note</p>
                         </div>
-                        <p class="text-lg font-semibold text-primary">NGN billion (Issued in multiple series)</p>
+                        <p class="text-lg font-semibold text-primary">NGN billion </p>
                         <p class="text-sm italic text-gray-500">Arranger</p>
                         <div class="pt-4">
                             <img src="{{ asset('asssets/img/logo.png') }}" alt="Your Logo"
@@ -78,7 +78,7 @@
                 <div class="swiper-slide">
                     <!-- Card 4 -->
                     <div class="bg-white shadow-lg rounded-2xl px-8 py-6 border-t-4 border-b-4 border-black space-y-4">
-                        <p class="text-sm font-semibold text-gray-500 uppercase">20022</p>
+                        <p class="text-sm font-semibold text-gray-500 uppercase">2022</p>
                         <h3 class="text-lg font-bold text-gray-800">Nova Merchant Bank</h3>
                         <img src="{{ asset('asssets/img/records/russ.png') }}" alt="Russelsmith Logo"
                             class="w-32 h-auto object-contain">
@@ -86,7 +86,7 @@
                             <p class="text-sm">Capital Market</p>
                             <p class="text-sm">Commercial Paper</p>
                         </div>
-                        <p class="text-lg font-semibold text-primary">NGN billion (Issued in multiple series)</p>
+                        <p class="text-lg font-semibold text-primary">NGN 20 billion</p>
                         <p class="text-sm italic text-gray-500">Lead Issuing House</p>
                         <div class="pt-4">
                             <img src="{{ asset('asssets/img/logo.png') }}" alt="Your Logo"
@@ -100,14 +100,14 @@
                     <!-- Card 5 -->
                     <div class="bg-white shadow-lg rounded-2xl px-8 py-6 border-t-4 border-b-4 border-black space-y-4">
                         <p class="text-sm font-semibold text-gray-500 uppercase">2022</p>
-                        <h3 class="text-lg font-bold text-gray-800">Emerging Market Capt</h3>
+                        <h3 class="text-lg font-bold text-gray-800">Emerging Africa</h3>
                         <img src="{{ asset('asssets/img/records/russ.png') }}" alt="Russelsmith Logo"
                             class="w-32 h-auto object-contain">
                         <div class="text-gray-700 space-y-1">
                             <p class="text-sm">Capital Market</p>
                             <p class="text-sm">Corporate Bond</p>
                         </div>
-                        <p class="text-lg font-semibold text-primary">NGN billion (Issued in multiple series)</p>
+                        <p class="text-lg font-semibold text-primary">NGN billion</p>
                         <p class="text-sm italic text-gray-500">Joint Issue Housing</p>
                         <div class="pt-4">
                             <img src="{{ asset('asssets/img/logo.png') }}" alt="Your Logo"
@@ -125,9 +125,9 @@
                             class="w-32 h-auto object-contain">
                         <div class="text-gray-700 space-y-1">
                             <p class="text-sm">Capital Market</p>
-                            <p class="text-sm">Commercial Paper</p>
+                            <p class="text-sm">Corporate Bond</p>
                         </div>
-                        <p class="text-lg font-semibold text-primary">NGN billion (Issued in multiple series)</p>
+                        <p class="text-lg font-semibold text-primary">NGN 7.02 billion</p>
                         <p class="text-sm italic text-gray-500">Joint Issuing House</p>
                         <div class="pt-4">
                             <img src="{{ asset('asssets/img/logo.png') }}" alt="Your Logo"
@@ -141,14 +141,14 @@
                     <!-- Card 7 -->
                     <div class="bg-white shadow-lg rounded-2xl px-8 py-6 border-t-4 border-b-4 border-black space-y-4">
                         <p class="text-sm font-semibold text-gray-500 uppercase">2022</p>
-                        <h3 class="text-lg font-bold text-gray-800">Emerging Market Capt</h3>
+                        <h3 class="text-lg font-bold text-gray-800">Valency Agro Nigeria</h3>
                         <img src="{{ asset('asssets/img/records/russ.png') }}" alt="Russelsmith Logo"
                             class="w-32 h-auto object-contain">
                         <div class="text-gray-700 space-y-1">
                             <p class="text-sm">Capital Market</p>
-                            <p class="text-sm">Corporate Bond</p>
+                            <p class="text-sm">Commercial Paper</p>
                         </div>
-                        <p class="text-lg font-semibold text-primary">NGN billion (Issued in multiple series)</p>
+                        <p class="text-lg font-semibold text-primary">NGN 40 billion</p>
                         <p class="text-sm italic text-gray-500">Joint Issue Housing</p>
                         <div class="pt-4">
                             <img src="{{ asset('asssets/img/logo.png') }}" alt="Your Logo"
@@ -161,15 +161,15 @@
                 <div class="swiper-slide">
                     <!-- Card 8 -->
                     <div class="bg-white shadow-lg rounded-2xl px-8 py-6 border-t-4 border-b-4 border-black space-y-4">
-                        <p class="text-sm font-semibold text-gray-500 uppercase">2022</p>
-                        <h3 class="text-lg font-bold text-gray-800">Valency Agro Nigeria</h3>
+                        <p class="text-sm font-semibold text-gray-500 uppercase">2023</p>
+                        <h3 class="text-lg font-bold text-gray-800">AOS Orwell Ltd</h3>
                         <img src="{{ asset('asssets/img/records/russ.png') }}" alt="Russelsmith Logo"
                             class="w-32 h-auto object-contain">
                         <div class="text-gray-700 space-y-1">
                             <p class="text-sm">Capital Market</p>
                             <p class="text-sm">Commercial Paper</p>
                         </div>
-                        <p class="text-lg font-semibold text-primary">NGN billion (Issued in multiple series)</p>
+                        <p class="text-lg font-semibold text-primary">NGN 8 billion</p>
                         <p class="text-sm italic text-gray-500">Joint Issue Housing</p>
                         <div class="pt-4">
                             <img src="{{ asset('asssets/img/logo.png') }}" alt="Your Logo"
@@ -180,7 +180,7 @@
 
             </div>
 
-            {{-- <div class="swiper-pagination"></div> --}}
+            {{-- <div class="-pagination"></div> --}}
         </div>
 
 

@@ -1,12 +1,13 @@
 @extends('layouts.app')
 @section('main')
-<section class="relative text-black bg-cover bg-center" style="background-image: url('{{ asset('asssets/img/servicebg.jpg') }}');">
-    <div class="absolute inset-0 bg-primary z-0"></div>
+    <section class="relative text-black bg-cover bg-center"
+        style="background-image: url('{{ asset('asssets/img/servicebg.jpg') }}');">
+        <div class="absolute inset-0 bg-primary/95 z-0"></div>
 
         <div class="relative z-10 container mx-auto px-6 pt-40 pb-24 text-center text-black">
-            <h1 class="text-5xl sm:text-6xl font-bold mb-4">About</h1>
+            <h1 class="text-5xl sm:text-6xl font-bold mb-4">Contact</h1>
             <div class="text-base sm:text-lg font-semibold flex justify-center gap-2">
-                <a href="{{ route('home') }}" class="hover:underline text-black/90">Home</a>
+                <a href="{{ route('home') }}" class="hover:underline text-gray-300">Home</a>
                 <span>|</span>
                 <span>About</span>
             </div>
@@ -99,7 +100,8 @@
 
                 <!-- Message from the Managing Director -->
                 <div>
-                    <h2 class="text-5xl font-semibold  mb-4 text-[#d9bf83]">Message from the <span class=text-[#d9bf83]>Managing Director</span> </h2>
+                    <h2 class="text-5xl font-semibold  mb-4 text-[#d9bf83]">Message from the <span
+                            class=text-[#d9bf83]>Managing Director</span> </h2>
                     <p class="text-white leading-relaxed mb-6">
                         Dear Stakeholders,
                     </p>

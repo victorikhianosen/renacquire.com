@@ -21,7 +21,9 @@
                 </div>
             </div>
             <div class="hidden lg:block">
-                <img class="w-[50rem]" src="{{ asset('asssets/img/hero.webp') }}" alt="">
+                <img class="w-[50rem] h-[30rem] object-fit" src="{{ asset('asssets/img/hero.png') }}" alt="">
+
+                {{-- <img class="w-[50rem]" src="{{ asset('asssets/img/hero.webp') }}" alt=""> --}}
             </div>
         </div>
     </div>

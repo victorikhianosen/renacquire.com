@@ -4,7 +4,7 @@
     <div class="container m-auto p-6 py-24">
         <div class="grid grid-cols-4 gap-16">
             <div class="col-span-4 md:col-span-2 lg:col-span-1">
-                <img class="w-[50%] md:[40%] lg:w-[90%]" src="{{ asset('asssets/img/white-logo.png') }}"
+                <img class="w-[50%] md:[40%] lg:w-[90%]" src="{{ asset('asssets/img/White on Gold.png') }}"
                     alt="">
                 <p class="text-textColor text-sm md:text-[16px] font-normal leading-[26px] text-justify mt-4">
                     19A, Sinari Daranijo Street, Victoria Island, Lagos. Nigeria
