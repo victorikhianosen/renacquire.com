@@ -72,7 +72,7 @@
                 </div>
 
                 <!-- Right side: Image -->
-                <div class="relative bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+                {{-- <div class="relative bg-gray-800 rounded-lg overflow-hidden shadow-lg">
                     <img src="https://via.placeholder.com/500x400" alt="Office Image"
                         class="w-full h-full object-cover rounded-lg" />
                     <div class="absolute top-0 left-0 w-full h-full bg-black opacity-50 flex items-center justify-center">
@@ -81,7 +81,21 @@
                             <p>Come to our office to experience our financial solutions in person.</p>
                         </div>
                     </div>
+                </div> --}}
+
+
+                <div class="relative bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+                    <iframe
+                        src="https://www.google.com/maps?q=19A+Sinari+Daranijo+Street,+Victoria+Island,+Lagos&output=embed"
+                        class="w-full h-full rounded-lg"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                  
                 </div>
+
 
             </div>
 
