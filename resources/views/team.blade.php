@@ -16,7 +16,8 @@
 
     </section>
 
-    {{-- Our Team Section --}}
+
+
     <section class="bg-charcoal text-white py-24">
         <div class="container mx-auto px-6 text-center">
             <h2 class="text-3xl sm:text-4xl font-semibold mb-6">Meet Our Leadership Team</h2>
@@ -25,39 +26,47 @@
             </p>
 
             <div class="grid md:grid-cols-3 gap-10">
-                {{-- Team Member 1 --}}
-                <div class="bg-white/10 p-8 rounded-2xl border border-white/10 hover:-translate-y-2 transition transform duration-300">
-                    <img src="{{ asset('asssets/img/okoya.jpg') }}" alt="Chad Chris"
-                         class="rounded-full mx-auto mb-6 w-[15rem] h-[15rem] object-fit shadow-md">
-                    <h4 class="text-xl font-semibold mb-1">Funke Okoya
-                    </h4>
-                    <p class="text-primary font-medium mb-3">Founder and Managing Director
-                    </p>
-                    <p class="text-gray-300 text-sm leading-relaxed">Leading RenAcquire with a focus on innovation and client success.</p>
+                {{-- 1 --}}
+
+                <div class="bg-white/10 rounded-2xl overflow-hidden">
+                    <img class="object-fit w-full h-[26rem]" src="{{ asset('asssets/img/okoya.jpg') }}" alt="">
+                    <div class="px-6 py-8">
+                        <h4 class="text-xl font-semibold mb-1">Funke Okoya
+                        </h4>
+                        <p class="text-primary font-medium mb-3">Founder and Managing Director
+                        </p>
+                        <p class="text-gray-300 text-sm leading-relaxed">Leading RenAcquire with a focus on innovation and client success.</p>
+                    </div>
                 </div>
 
-                {{-- Team Member 2 --}}
-                <div class="bg-white/10 p-8 rounded-2xl border border-white/10 hover:-translate-y-2 transition transform duration-300">
-                    <img src="{{ asset('asssets/img/tolu.jpg') }}" alt="Jane Doe"
-                         class="rounded-full mx-auto mb-6 w-[15rem] h-[15rem] object-fit shadow-md">
-                    <h4 class="text-xl font-semibold mb-1">Tolulope Williams
-                    </h4>
-                    <p class="text-primary font-medium mb-3">Chief Operating Officer
-                    </p>
-                    <p class="text-gray-300 text-sm leading-relaxed">Overseeing financial strategies and operations to ensure growth.</p>
+
+                {{-- 2 --}}
+                <div class="bg-white/10 rounded-2xl overflow-hidden">
+                    <img class="object-fit w-full h-[26rem]" src="{{ asset('asssets/img/tolu.jpg') }}" alt="">
+                    <div class="px-6 py-8">
+                        <h4 class="text-xl font-semibold mb-1">Tolulope Williams
+                        </h4>
+                        <p class="text-primary font-medium mb-3">Chief Operating Officer
+                        </p>
+                        <p class="text-gray-300 text-sm leading-relaxed">Overseeing financial strategies and operations to ensure growth.</p>
+                    </div>
                 </div>
 
-                {{-- Team Member 3 --}}
-                <div class="bg-white/10 p-8 rounded-2xl border border-white/10 hover:-translate-y-2 transition transform duration-300">
-                    <img src="{{ asset('asssets/img/king.jpg') }}" alt="John Smith"
-                         class="rounded-full mx-auto mb-6 w-[15rem] h-[15rem] object-fit shadow-md">
-                    <h4 class="text-xl font-semibold mb-1">Kingsley Ezemegbu
-                    </h4>
-                    <p class="text-primary font-medium mb-3">Head of Client Coverage
-                    </p>
-                    <p class="text-gray-300 text-sm leading-relaxed">Managing operations to drive efficiency and excellence across the organization.</p>
+
+                {{-- 3 --}}
+
+                <div class="bg-white/10 rounded-2xl overflow-hidden">
+                    <img class="object-fit w-full h-[26rem]" src="{{ asset('asssets/img/king.jpg') }}" alt="">
+                    <div class="px-6 py-8">
+                        <h4 class="text-xl font-semibold mb-1">Kingsley Ezemegbu</h4>
+                        <p class="text-primary font-medium mb-3">Head of Client Coverage</p>
+                        <p class="text-gray-300 text-sm leading-relaxed">Managing operations to drive efficiency and excellence across the organization.</p>
+                    </div>
                 </div>
+
             </div>
         </div>
     </section>
+
+
 @endsection
