@@ -86,11 +86,11 @@
                         class="text-textColor text-sm md:text-[14px] font-normal leading-[23px] text-justifytext-white pt-2 tracking-wider transition-all duration-300 hover:text-white hover:translate-x-2">
                         Facebook</a>
 
-                    <a href=""
+                    <a href="{{ url('https://www.instagram.com/renacquire/') }}" target="_blank"
                         class="text-textColor text-sm md:text-[14px] font-normal leading-[23px] text-justifytext-white pt-2 tracking-wider transition-all duration-300 hover:text-white hover:translate-x-2">
                         Instagram</a>
 
-                    <a href=""
+                    <a href="{{ url('https://www.linkedin.com/in/renacquire-limited-128568347/') }}" target="_blank"
                         class="text-textColor text-sm md:text-[14px] font-normal leading-[23px] text-justifytext-white pt-2 tracking-wider transition-all duration-300 hover:text-white hover:translate-x-2">
                         Linkedin</a>
 
@@ -125,6 +125,8 @@
                         +234 814 132 5535</a>
                 </div>
             </div>
+
+
 
 
 

@@ -94,7 +94,7 @@
 
                 <!-- Image on the Left -->
                 <div>
-                    <img src="{{ asset('asssets/img/okoya.jpg') }}" alt="Director Image"
+                    <img src="{{ asset('asssets/img/fo.png') }}" alt="Director Image"
                         class="rounded-2xl shadow-lg w-full object-cover">
                 </div>
 

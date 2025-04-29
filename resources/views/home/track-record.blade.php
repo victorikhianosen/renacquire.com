@@ -15,7 +15,7 @@
                     <div class="bg-white shadow-lg rounded-2xl px-8 py-6 border-t-4 border-b-4 border-black space-y-4">
                         <p class="text-sm font-semibold text-gray-500 uppercase">2025</p>
                         <h3 class="text-lg font-bold text-gray-800">Russelsmith Ltd</h3>
-                        <img src="{{ asset('asssets/img/records/russ.png') }}" alt="Russelsmith Logo"
+                        <img class="h-16" src="{{ asset('asssets/img/records/russ.png') }}" alt="Russelsmith Logo"
                             class="w-32 h-auto object-contain">
                         <div class="text-gray-700 space-y-1">
                             <p class="text-sm">Capital Market</p>
@@ -36,7 +36,7 @@
                     <div class="bg-white shadow-lg rounded-2xl px-8 py-6 border-t-4 border-b-4 border-black space-y-4">
                         <p class="text-sm font-semibold text-gray-500 uppercase">2022</p>
                         <h3 class="text-lg font-bold text-gray-800">Global Accelerex</h3>
-                        <img src="{{ asset('asssets/img/records/russ.png') }}" alt="Russelsmith Logo"
+                        <img class="h-16"  src="{{ asset('asssets/img/GA-removebg-preview.png') }}" alt="Russelsmith Logo"
                             class="w-32 h-auto object-contain">
                         <div class="text-gray-700 space-y-1">
                             <p class="text-sm">Capital Market</p>
@@ -58,13 +58,13 @@
                     <div class="bg-white shadow-lg rounded-2xl px-8 py-6 border-t-4 border-b-4 border-black space-y-4">
                         <p class="text-sm font-semibold text-gray-500 uppercase">2022</p>
                         <h3 class="text-lg font-bold text-gray-800">Purple Real Estate Dev.</h3>
-                        <img src="{{ asset('asssets/img/records/russ.png') }}" alt="Russelsmith Logo"
+                        <img class="h-16"  src="{{ asset('asssets/img/Purple_Logo_Trans-1266811.png') }}" alt="Russelsmith Logo"
                             class="w-32 h-auto object-contain">
                         <div class="text-gray-700 space-y-1">
                             <p class="text-sm">Capital Market</p>
                             <p class="text-sm">Short Term investment Note</p>
                         </div>
-                        <p class="text-lg font-semibold text-primary">NGN billion </p>
+                        <p class="text-lg font-semibold text-primary">NGN 10 billion </p>
                         <p class="text-sm italic text-gray-500">Arranger</p>
                         <div class="pt-4">
                             <img src="{{ asset('asssets/img/logo.png') }}" alt="Your Logo"
@@ -80,7 +80,7 @@
                     <div class="bg-white shadow-lg rounded-2xl px-8 py-6 border-t-4 border-b-4 border-black space-y-4">
                         <p class="text-sm font-semibold text-gray-500 uppercase">2022</p>
                         <h3 class="text-lg font-bold text-gray-800">Nova Merchant Bank</h3>
-                        <img src="{{ asset('asssets/img/records/russ.png') }}" alt="Russelsmith Logo"
+                        <img class="h-16"  src="{{ asset('asssets/img/Nova_Logos_New.png') }}" alt="Russelsmith Logo"
                             class="w-32 h-auto object-contain">
                         <div class="text-gray-700 space-y-1">
                             <p class="text-sm">Capital Market</p>
@@ -101,13 +101,13 @@
                     <div class="bg-white shadow-lg rounded-2xl px-8 py-6 border-t-4 border-b-4 border-black space-y-4">
                         <p class="text-sm font-semibold text-gray-500 uppercase">2022</p>
                         <h3 class="text-lg font-bold text-gray-800">Emerging Africa</h3>
-                        <img src="{{ asset('asssets/img/records/russ.png') }}" alt="Russelsmith Logo"
+                        <img class="h-16" src="{{ asset('asssets/img/footerlogo.png') }}" alt="Russelsmith Logo"
                             class="w-32 h-auto object-contain">
                         <div class="text-gray-700 space-y-1">
                             <p class="text-sm">Capital Market</p>
                             <p class="text-sm">Corporate Bond</p>
                         </div>
-                        <p class="text-lg font-semibold text-primary">NGN billion</p>
+                        <p class="text-lg font-semibold text-primary">NGN 4 billion</p>
                         <p class="text-sm italic text-gray-500">Joint Issue Housing</p>
                         <div class="pt-4">
                             <img src="{{ asset('asssets/img/logo.png') }}" alt="Your Logo"
@@ -121,7 +121,7 @@
                     <div class="bg-white shadow-lg rounded-2xl px-8 py-6 border-t-4 border-b-4 border-black space-y-4">
                         <p class="text-sm font-semibold text-gray-500 uppercase">2022</p>
                         <h3 class="text-lg font-bold text-gray-800">Prima Corporation</h3>
-                        <img src="{{ asset('asssets/img/records/russ.png') }}" alt="Russelsmith Logo"
+                        <img class="h-16"  src="{{ asset('asssets/img/prima-logo.png') }}" alt="Russelsmith Logo"
                             class="w-32 h-auto object-contain">
                         <div class="text-gray-700 space-y-1">
                             <p class="text-sm">Capital Market</p>
@@ -142,7 +142,7 @@
                     <div class="bg-white shadow-lg rounded-2xl px-8 py-6 border-t-4 border-b-4 border-black space-y-4">
                         <p class="text-sm font-semibold text-gray-500 uppercase">2022</p>
                         <h3 class="text-lg font-bold text-gray-800">Valency Agro Nigeria</h3>
-                        <img src="{{ asset('asssets/img/records/russ.png') }}" alt="Russelsmith Logo"
+                        <img class="h-16"  src="{{ asset('asssets/img/VALENCY LOGO.png') }}" alt="Russelsmith Logo"
                             class="w-32 h-auto object-contain">
                         <div class="text-gray-700 space-y-1">
                             <p class="text-sm">Capital Market</p>
@@ -163,7 +163,7 @@
                     <div class="bg-white shadow-lg rounded-2xl px-8 py-6 border-t-4 border-b-4 border-black space-y-4">
                         <p class="text-sm font-semibold text-gray-500 uppercase">2023</p>
                         <h3 class="text-lg font-bold text-gray-800">AOS Orwell Ltd</h3>
-                        <img src="{{ asset('asssets/img/records/russ.png') }}" alt="Russelsmith Logo"
+                        <img class="h-16"  src="{{ asset('asssets/img/aosorwell-logo-1.png') }}" alt="Russelsmith Logo"
                             class="w-32 h-auto object-contain">
                         <div class="text-gray-700 space-y-1">
                             <p class="text-sm">Capital Market</p>
