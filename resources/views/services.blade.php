@@ -51,7 +51,7 @@
             <div class="mt-20 text-center">
                 <h4 class="text-2xl font-bold mb-2">Not sure what you need?</h4>
                 <p class="text-primary mb-6">Let’s explore your goals together and recommend the right path forward.</p>
-                <a href="/contact"
+                <a href="{{ route('services') }}"
                     class="px-6 py-3 bg-primary text-navy font-semibold rounded-lg shadow hover:bg-white hover:text-navy transition">
                     Get in Touch
                 </a>
