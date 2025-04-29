@@ -94,8 +94,8 @@
 
                 <!-- Image on the Left -->
                 <div>
-                    <img src="{{ asset('asssets/img/fo.png') }}" alt="Director Image"
-                        class="rounded-2xl shadow-lg w-full object-cover">
+                    <img src="{{ asset('asssets/img/fo.jpeg') }}" alt="Director Image"
+                        class="rounded-2xl shadow-lg w-[90%] h-[600px] object-cover">
                 </div>
 
                 <!-- Message from the Managing Director -->

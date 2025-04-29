@@ -29,7 +29,7 @@
                 {{-- 1 --}}
 
                 <div class="bg-white/10 rounded-2xl overflow-hidden">
-                    <img class="object-cover w-full h-[20rem]" src="{{ asset('asssets/img/okoya.jpeg') }}" alt="">
+                    <img class="object-cover w-full h-[30rem]" src="{{ asset('asssets/img/fo.jpeg') }}" alt="">
                     <div class="px-6 py-8">
                         <h4 class="text-xl font-semibold mb-1">Funke Okoya
                         </h4>
@@ -42,7 +42,7 @@
 
                 {{-- 2 --}}
                 <div class="bg-white/10 rounded-2xl overflow-hidden">
-                    <img class="object-cover w-full h-[20rem]" src="{{ asset('asssets/img/fumi.jpeg') }}" alt="">
+                    <img class="object-cover w-full h-[30rem]" src="{{ asset('asssets/img/fumi.jpeg') }}" alt="">
                     <div class="px-6 py-8">
                         <h4 class="text-xl font-semibold mb-1">Tolulope Williams
                         </h4>
@@ -56,7 +56,7 @@
                 {{-- 3 --}}
 
                 <div class="bg-white/10 rounded-2xl overflow-hidden">
-                    <img class="object-fit w-full h-[20rem]" src="{{ asset('asssets/img/king.jpg') }}" alt="">
+                    <img class="object-fit w-full h-[30rem]" src="{{ asset('asssets/img/king.jpg') }}" alt="">
                     <div class="px-6 py-8">
                         <h4 class="text-xl font-semibold mb-1">Kingsley Ezemegbu</h4>
                         <p class="text-primary font-medium mb-3">Head of Client Coverage</p>
