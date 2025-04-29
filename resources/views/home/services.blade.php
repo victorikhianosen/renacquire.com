@@ -5,7 +5,7 @@
                 Delivering impactful <span class="text-primary">financial solutions
                 in Africa and beyond</span>
             </h2>
-            <img class="hidden lg:block" src="{{ asset('asssets/img/feature.webp') }}" alt="">
+            <img class="hidden lg:block w-24" src="{{ asset('asssets/img/service-img.png') }}" alt="">
         </div>
         <div class="flex justify-start items-center gap-2 mt-10">
             <div class="w-3 h-3 bg-primary"></div>
